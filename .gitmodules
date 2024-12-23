@@ -1,0 +1,3 @@
+[submodule "ms-config"]
+	path = ms-config
+	url = https://github.com/rnwnsgud/submodule-momstouch

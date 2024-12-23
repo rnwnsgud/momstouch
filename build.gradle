@@ -41,3 +41,11 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+task copyYml(type: Copy) {
+    copy {
+        from './ms-config'
+        include 'application.yml'
+        into 'src/main/resources'
+    }
+}
