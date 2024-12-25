@@ -10,7 +10,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 @Getter
 public enum ErrorCode {
 
-    WRONG_MENU_OPTION(BAD_REQUEST, "잘못된 형식의 메뉴 옵션입니다.");
+    WRONG_KIOSK_COUNT(BAD_REQUEST, "잘못된 수량의 키오스크 주문 수량입니다.");
 
     private final HttpStatus httpStatus;
     private final String message;

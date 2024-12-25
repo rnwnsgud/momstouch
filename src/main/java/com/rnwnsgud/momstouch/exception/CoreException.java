@@ -7,5 +7,6 @@ import lombok.Getter;
 @Getter
 public class CoreException extends RuntimeException{
 
-    private ErrorCode errorCode;
+    private final ErrorCode errorCode;
+
 }
